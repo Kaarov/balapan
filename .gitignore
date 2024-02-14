@@ -1,0 +1,10 @@
+.idea/
+/.env
+/.env.prod
+/static_volume/
+/src/staticfiles/
+/media_volume/
+
+.pytest_cache/
+__pycache__/
+/src/mediafiles/
