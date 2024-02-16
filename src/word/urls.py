@@ -4,5 +4,5 @@ from .views import WordRetrieveAPIView
 
 urlpatterns = [
     path('category/', CategoryListAPIView.as_view(), name='category'),
-    path('word/<int:pk>/', WordRetrieveAPIView.as_view(), name='word'),
+    path('<int:pk>/', WordRetrieveAPIView.as_view(), name='word'),
 ]

@@ -18,6 +18,3 @@ class TextModelAdmin(admin.TabularInline):
 class OrderAdmin(admin.ModelAdmin):
     list_display = ['title', 'image']
     inlines = [TextModelAdmin]
-
-    def has_delete_permission(self, request, obj=None):
-        return False

@@ -11,9 +11,10 @@ class CategoryListSerializer(serializers.ModelSerializer):
 
 
 class WordListSerializer(serializers.ModelSerializer):
+
     class Meta:
         model = Word
-        fields = ("id", "title", "image", "file")
+        fields = ("id", "title", "image", "audio")
 
 
 class WordRetrieveSerializer(serializers.ModelSerializer):

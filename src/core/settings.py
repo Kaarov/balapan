@@ -107,6 +107,7 @@ REST_FRAMEWORK = {
     # "DEFAULT_PAGINATION_CLASS": "core.pagination.Pagination",
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     "EXCEPTION_HANDLER": "core.exceptions.drf_exception_handler",
+    # "EXCEPTION_HANDLER": "core.exceptions.drf_exception_handler.custom_exception_handler",
     "TEST_REQUEST_DEFAULT_FORMAT": "json",
     "TIME_FORMAT": DEFAULT_TIME_FORMAT,
     "TIME_INPUT_FORMATS": [DEFAULT_TIME_FORMAT],
