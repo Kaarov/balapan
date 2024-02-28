@@ -22,7 +22,7 @@ class StoryRetrieveSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Story
-        fields = ("id", "title", "image", "text")
+        fields = ("id", "title", "image", "audio", "text")
 
     def get_text(self, story):
         text = TextModel.objects.filter(story=story)
