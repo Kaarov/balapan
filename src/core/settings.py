@@ -195,7 +195,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 JET_SIDE_MENU_COMPACT = True
 
 # CORS
-CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default="")
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_HEADERS = [
     "accept",
